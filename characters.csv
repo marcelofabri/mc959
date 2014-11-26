@@ -1,0 +1,768 @@
+Character ID;Character Name;Hero or Villain;Intelligence;Strength;Speed;Durability;Energy Projection;Fighting Skills;Number of Comic Books Where Character Appeared
+1;comet;hero;1;1;1;1;1;1;9
+2;mimic;hero;6;6;6;6;6;6;24
+3;darkstar;hero;3;5;4;2;3;2;46
+4;multiple man;hero;7;7;6;6;7;6;65
+5;doctor voodoo;hero;4;7;4;5;3;2;38
+6;smuggler;hero;4;2;3;2;2;2;7
+7;omega;hero;1;1;1;1;1;1;19
+8;feral;hero;2;1;5;2;3;2;37
+9;topaz;hero;1;1;1;1;1;1;54
+10;portal;hero;1;1;1;1;1;1;6
+11;ghost rider;hero;7;6;4;3;2;4;280
+12;wolverine;hero;4;1;4;2;3;4;832
+13;3-d man;hero;2;1;3;3;3;3;9
+14;haywire;hero;1;1;1;1;1;1;8
+15;angel;hero;2;1;3;2;3;2;458
+16;m;hero;5;1;4;5;3;4;50
+17;rage;hero;1;1;1;1;1;1;58
+18;maverick;hero;2;4;4;2;2;2;24
+19;moon knight;hero;4;1;3;3;3;4;192
+20;diamondback;hero;3;1;4;2;2;3;80
+21;sharon carter;hero;1;1;1;1;1;1;137
+22;nightwatch;hero;1;1;1;1;1;1;1
+23;tagak;hero;1;1;1;1;1;1;4
+24;phat;hero;4;1;3;1;2;2;1
+25;free spirit;hero;1;1;1;1;1;1;15
+26;wanderer;hero;1;1;1;1;1;1;2
+27;huntara;hero;2;2;5;2;7;3;23
+28;captain universe;hero;7;7;7;7;7;7;6
+29;punisher;hero;6;4;6;5;5;6;309
+30;rick jones;hero;3;1;5;4;3;3;322
+31;mister fantastic;hero;6;1;2;6;2;3;886
+32;namorita;hero;7;7;6;7;7;7;170
+33;spitfire;hero;3;1;3;3;6;2;39
+34;firelord;hero;3;5;2;3;4;4;48
+35;turbo;hero;1;1;1;1;1;1;54
+36;x-man;hero;6;5;6;4;4;6;89
+37;hellstorm;hero;1;1;1;1;1;1;95
+38;ape;hero;1;1;1;1;1;1;9
+39;lightningbolt;hero;1;1;1;1;1;1;1
+40;maggott;hero;1;1;1;1;1;1;22
+41;dagger;hero;1;5;3;3;2;1;114
+42;sangre;hero;1;1;1;1;1;1;1
+43;silver surfer;hero;7;7;5;4;7;6;318
+44;northstar;hero;1;2;1;1;2;1;116
+45;erg;hero;1;1;1;1;1;1;8
+46;thor;hero;7;7;6;2;6;7;1005
+47;gateway;hero;1;1;1;1;1;1;41
+48;whizzer;hero;1;1;1;1;1;1;135
+49;hannibal king;hero;5;3;5;5;4;4;26
+50;balder;hero;1;1;1;1;1;1;255
+51;jubilee;hero;5;7;5;4;4;4;189
+52;cat;hero;2;1;6;2;3;2;27
+53;marvel girl;hero;4;7;4;3;6;3;490
+54;crimson crusader;hero;1;1;1;1;1;1;2
+55;risque;hero;2;4;2;2;2;2;5
+56;sentry;hero;6;4;3;5;5;6;10
+57;nemesis;hero;1;1;1;1;1;1;8
+58;strong guy;hero;4;1;4;3;2;6;67
+59;penance;hero;6;4;4;2;3;3;71
+60;valkyrie;hero;5;2;5;4;5;6;7
+61;hudson heather (earth-3470);hero;5;1;3;5;5;3;173
+62;ares;hero;6;1;7;2;2;5;29
+63;bishop;hero;4;7;5;4;2;3;131
+64;blizzard;hero;3;5;4;2;3;2;24
+65;living mummy;hero;6;4;3;4;3;5;13
+66;captain america;hero;3;1;7;3;2;3;1401
+67;makkari;hero;1;1;1;1;1;1;71
+68;colossus;hero;7;5;5;4;4;7;462
+69;darkhawk;hero;4;4;2;3;2;4;70
+70;ms. marvel;hero;4;5;4;3;5;4;81
+71;sleepwalker;hero;1;1;1;1;1;1;25
+72;tigra;hero;1;1;1;1;1;1;171
+73;wolfsbane;hero;3;1;3;2;3;3;234
+74;hawkeye;hero;2;2;7;5;3;3;3
+75;impact;hero;1;1;1;1;1;1;2
+76;black panther;hero;3;1;6;5;4;4;319
+77;lylla;hero;1;1;1;1;1;1;5
+78;changeling;hero;1;1;1;1;1;1;12
+79;radius;hero;1;1;1;1;1;1;22
+80;crystal;hero;1;1;1;1;1;1;262
+81;diamond lil;hero;6;1;3;2;2;2;49
+82;shard;hero;1;1;1;1;1;1;27
+83;synch;hero;1;1;1;1;1;1;71
+84;phantom rider;hero;1;1;1;1;1;1;7
+85;wallop;hero;1;1;1;1;1;1;2
+86;atlas;hero;7;1;4;2;2;7;12
+87;jennifer kale;hero;1;1;1;1;1;1;20
+88;karnak;hero;1;1;1;1;1;1;134
+89;captain ultra;hero;1;1;1;1;1;1;6
+90;corona;hero;1;1;1;1;1;1;2
+91;namora;hero;1;1;1;1;1;1;7
+92;doorman;hero;1;1;1;1;1;1;12
+93;spirit of '76;hero;1;1;1;1;1;1;2
+94;outlaw;hero;1;1;1;1;1;1;5
+95;firefall;hero;1;1;1;1;1;1;16
+96;triton;hero;1;1;1;1;1;1;122
+97;wyre;hero;1;1;1;1;1;1;2
+98;hellcat;hero;4;3;6;4;3;4;126
+99;iron man;hero;6;6;3;6;5;6;1456
+100;bedlam;hero;2;6;4;2;2;2;42
+101;cloak;hero;5;5;3;3;5;3;105
+102;cypher;hero;1;1;1;1;1;1;114
+103;silver sable;hero;1;1;1;1;1;1;82
+104;nomad;hero;2;1;3;1;1;3;87
+105;thing;hero;6;1;4;2;2;6;997
+106;gargoyle;hero;5;4;2;3;3;4;85
+107;white tiger;hero;1;1;1;1;1;1;55
+108;amphibion;hero;6;1;6;3;3;6;13
+109;hyperion;hero;7;3;4;2;5;6;57
+110;joystick;hero;3;3;4;2;5;4;6
+111;quasar;hero;4;5;4;4;7;5;185
+112;marvel boy;hero;3;1;4;4;3;4;22
+113;mockingbird;hero;1;1;1;1;1;1;176
+114;demolition man;hero;3;1;5;1;2;4;37
+115;storm;hero;3;6;5;5;5;2;527
+116;patriot;hero;4;1;5;3;4;4;59
+117;flex;hero;1;1;1;1;1;1;21
+118;valerie cooper;hero;1;1;1;1;1;1;116
+119;prowler;hero;2;3;3;4;2;2;34
+120;yellowjacket;hero;1;1;1;1;1;1;34
+121;agent x;hero;7;4;1;1;1;1;2
+122;howard the duck;hero;3;1;3;4;2;2;72
+123;jack of hearts;hero;1;1;1;1;1;1;55
+124;big bertha;hero;6;4;4;4;4;6;11
+125;blitzkrieger;hero;1;1;1;1;1;1;9
+126;cannonball;hero;6;3;4;2;4;2;340
+127;colleen wing;hero;1;1;1;1;1;1;97
+128;micromax;hero;2;1;2;2;2;2;6
+129;doctor strange;hero;6;7;7;4;5;3;634
+130;skyhawk;hero;1;1;1;1;1;1;2
+131;thundra;hero;1;1;1;1;1;1;33
+132;polaris;hero;5;7;7;6;5;6;185
+133;witchfire;hero;1;1;1;1;1;1;21
+134;havok;hero;3;6;3;3;2;2;261
+135;andromeda;hero;1;1;1;1;1;1;27
+136;imp;hero;1;1;1;1;1;1;2
+137;ka-zar;hero;3;1;4;2;3;4;176
+138;la nuit;hero;3;5;2;3;3;2;1
+139;champion;hero;3;7;2;3;3;5;13
+140;radioactive man;hero;6;6;3;5;2;4;24
+141;crusader;hero;1;1;1;1;1;1;4
+142;shape;hero;1;1;1;1;1;1;17
+143;echo;hero;4;1;6;5;5;4;6
+144;swordsman;hero;6;7;7;7;7;5;82
+145;franklin richards;hero;1;7;1;7;1;1;277
+146;vision;hero;7;7;7;7;7;7;609
+147;zuras;hero;1;1;1;1;1;1;23
+148;ajak;hero;1;1;1;1;1;1;14
+149;humbug;hero;2;4;2;4;2;2;3
+150;karma;hero;1;1;1;1;1;1;59
+151;lockjaw;hero;1;1;1;1;1;1;107
+152;captain u.k.;hero;6;1;4;2;4;6;6
+153;doop;hero;6;4;3;5;3;5;2
+154;spider-woman;hero;5;6;6;6;6;6;224
+155;firebird;hero;5;7;4;6;7;6;39
+156;trauma;hero;1;1;1;1;1;1;2
+157;gladiatrix;hero;1;1;1;1;1;1;1
+158;wyatt wingfoot;hero;1;1;1;1;1;1;71
+159;ant-man;hero;1;1;1;1;1;1;677
+160;iron fist;hero;6;4;7;5;5;5;200
+161;beast;hero;4;1;4;6;3;4;650
+162;clea;hero;2;4;2;4;7;2;191
+163;meggan;hero;5;6;4;3;3;4;139
+164;morbius;hero;5;3;4;4;4;4;69
+165;doc samson;hero;5;1;1;4;2;6;130
+166;silhouette;hero;3;5;2;2;7;4;47
+167;nocturne;hero;5;5;6;4;4;3;7
+168;elektra;hero;2;3;7;4;6;4;55
+169;thena;hero;1;1;1;1;1;1;55
+170;ganymede;hero;1;1;1;1;1;1;2
+171;whiplash;hero;1;1;1;1;1;1;46
+172;jolt;hero;1;1;1;1;1;1;49
+173;marrina;hero;1;1;1;1;1;1;37
+174;rigger ruiz;hero;1;1;1;1;1;1;21
+175;misty knight;hero;3;1;7;7;1;5;121
+176;stingray;hero;1;1;1;1;1;1;55
+177;flatman;hero;7;7;7;7;7;7;12
+178;ursa major;hero;1;1;1;1;1;1;17
+179;protocide;hero;4;1;4;2;3;4;10
+180;agatha harkness;hero;1;1;1;1;1;1;81
+181;blazing skull;hero;5;5;5;5;3;5;6
+182;living lightning;hero;3;6;2;2;4;2;62
+183;collective man;hero;4;1;4;2;2;2;5
+184;red guardian;hero;1;1;1;1;1;1;58
+185;daredevil;hero;2;1;6;3;3;2;634
+186;doctor spectrum;hero;1;1;1;1;1;1;53
+187;skin;hero;1;1;1;1;1;1;89
+188;falcon;hero;1;1;1;1;1;1;221
+189;thunderstrike;hero;1;1;1;1;1;1;141
+190;windshear;hero;2;4;3;2;3;2;25
+191;ancient one;hero;1;1;1;1;1;1;75
+192;ikaris;hero;7;6;6;2;7;5;56
+193;kylun;hero;2;1;5;2;2;3;14
+194;box;hero;1;1;1;1;1;1;123
+195;quill;hero;4;3;5;3;4;3;4
+196;devil-slayer;hero;2;4;4;3;5;2;27
+197;shanna;hero;2;1;3;2;3;3;113
+198;nighthawk;hero;3;4;4;3;3;4;148
+199;earth lord;hero;1;1;1;1;1;1;3
+200;surge;hero;1;1;1;1;1;1;1
+201;forgotten one;hero;1;1;1;1;1;1;40
+202;vindicator;hero;1;1;1;1;1;1;4
+203;air-walker;hero;1;1;1;1;1;1;12
+204;human torch;hero;1;1;1;1;1;1;912
+205;javelin;hero;1;1;1;1;1;1;7
+206;black knight;hero;5;4;5;4;2;2;272
+207;lockheed;hero;1;1;1;1;1;1;115
+208;puck;hero;3;3;2;2;4;2;137
+209;deadpool;hero;7;7;7;5;7;4;67
+210;scarlet witch;hero;3;7;3;3;3;3;646
+211;spider-man;hero;3;2;2;3;3;3;1652
+212;torpedo;hero;1;1;1;1;1;1;33
+213;power princess;hero;1;1;1;1;1;1;28
+214;gladiator;hero;6;6;6;4;6;7;63
+215;wraith;hero;1;1;1;1;1;1;13
+216;headmistress;hero;1;1;1;1;1;1;3
+217;battlestar;hero;1;1;1;1;1;1;36
+218;black widow;hero;3;3;6;3;2;3;393
+219;madame web;hero;1;1;1;7;1;1;20
+220;citizen v;hero;2;1;5;2;2;2;112
+221;raphael suarez;hero;1;1;1;1;1;1;4
+222;medusa;hero;4;1;4;6;6;2;166
+223;cyclops;hero;4;7;5;5;4;4;604
+224;moonstone;hero;4;5;4;5;5;4;103
+225;shroud;hero;2;1;3;4;3;2;33
+226;texas twister;hero;1;1;1;1;1;1;13
+227;gambit;hero;3;5;4;3;3;3;215
+228;wasp;hero;4;3;3;7;3;4;591
+229;americop;hero;3;1;6;3;2;3;3
+230;jock jackson;hero;1;1;1;1;1;1;13
+231;blue shield;hero;1;1;1;1;1;1;7
+232;longshot;hero;1;1;1;1;1;1;66
+233;marionette;hero;1;1;1;1;1;1;9
+234;riger;hero;1;1;1;1;1;1;10
+235;stellaris;hero;1;1;1;1;1;1;16
+236;paladin;hero;1;1;7;5;1;6;38
+237;fixer;hero;4;6;2;5;4;4;68
+238;union jack;hero;3;2;5;3;3;2;45
+239;professor x;hero;4;7;4;7;2;4;513
+240;gorilla man;hero;3;1;4;3;3;4;4
+241;yankee clipper;hero;2;1;4;2;2;4;4
+242;aegis;hero;6;6;2;2;2;2;11
+243;arachne;hero;2;1;3;3;5;3;4
+244;jack flag;hero;4;1;6;3;3;4;12
+245;beta ray bill;hero;7;7;7;5;7;7;52
+246;coldblood;hero;1;1;1;1;1;1;14
+247;mercury;hero;1;1;1;1;1;1;6
+248;satana;hero;1;1;1;1;1;1;12
+249;skids;hero;6;3;3;2;3;2;58
+250;nuklo;hero;1;1;1;1;1;1;14
+251;thunderhead;hero;1;1;1;1;1;1;2
+252;geiger;hero;1;1;1;1;1;1;4
+253;wind warrior;hero;1;1;1;1;1;1;3
+254;anarchist;hero;2;4;4;2;2;3;2
+255;justice;hero;2;5;3;3;3;2;149
+256;bounty;hero;1;1;1;1;1;1;9
+257;chamber;hero;6;4;4;3;2;2;79
+258;quicksilver;hero;2;2;4;3;7;2;349
+259;rogue;hero;7;4;6;3;2;7;328
+260;shang-chi;hero;4;3;7;4;4;3;175
+261;nightcrawler;hero;5;7;7;5;7;4;452
+262;dusk;hero;1;1;1;1;1;1;3
+263;sunspot;hero;4;7;5;4;4;5;219
+264;peter wisdom;hero;2;3;3;2;2;2;52
+265;forge;hero;2;1;4;4;2;2;130
+266;venus;hero;1;1;1;1;1;1;32
+267;greystone;hero;1;1;1;1;1;1;7
+268;zefra;hero;1;1;1;1;1;1;8
+269;human top;hero;1;1;1;1;1;1;4
+270;black cat;hero;2;1;4;2;3;2;104
+271;bloke;hero;5;2;2;2;2;6;1
+272;captain marvel;hero;7;7;6;6;7;6;343
+273;psylocke;hero;3;6;6;4;3;3;225
+274;redstone;hero;1;1;1;1;1;1;4
+275;dead head;hero;1;1;1;1;1;1;2
+276;domino;hero;1;1;1;1;1;1;91
+277;solo;hero;1;1;1;1;1;1;13
+278;feron;hero;2;6;1;3;2;2;8
+279;toro;hero;1;1;1;1;1;1;49
+280;wong;hero;1;1;1;1;1;1;221
+281;headgear;hero;1;1;1;1;1;1;3
+282;annalee;hero;1;1;1;1;1;1;5
+283;battering ram;hero;6;1;2;2;2;6;1
+284;leir;hero;1;1;1;1;1;1;11
+285;mechamage;hero;1;1;1;1;1;1;2
+286;sabra;hero;5;3;4;2;3;5;23
+287;moonglow;hero;1;1;1;1;1;1;3
+288;dinah soar;hero;1;1;1;1;1;1;12
+289;she-hulk;hero;7;1;6;5;4;7;417
+290;terror;hero;1;1;1;1;1;1;19
+291;phoenix;hero;7;7;7;7;7;7;189
+292;warlock;hero;5;7;2;4;4;5;197
+293;american eagle;hero;1;1;1;1;1;1;6
+294;husk;hero;1;1;1;1;1;1;81
+295;aurora;hero;3;3;3;2;6;2;110
+296;jocasta;hero;1;1;1;1;1;1;59
+297;blue diamond;hero;1;1;1;1;1;1;11
+298;caretaker;hero;1;1;1;1;1;1;1
+299;mantis;hero;1;1;1;1;1;1;54
+300;corsair;hero;1;1;1;1;1;1;52
+301;rictor;hero;1;1;1;1;1;1;85
+302;nathaniel richards;hero;2;4;2;5;2;3;30
+303;starfox;hero;6;1;5;5;6;7;131
+304;fireworks fielstein;hero;1;1;1;1;1;1;13
+305;ulysses bloodstone;hero;1;1;1;1;1;1;26
+306;prodigy;hero;1;1;1;6;1;1;1
+307;hex;hero;1;1;1;1;1;1;2
+308;arabian knight;hero;1;5;3;2;3;2;15
+309;isis;hero;1;1;1;1;1;1;3
+310;blaquesmith;hero;2;1;3;5;2;2;50
+311;lila cheney;hero;2;1;3;2;7;2;29
+312;caliban;hero;5;2;3;2;5;5;71
+313;magma;hero;1;1;1;1;1;1;77
+314;doctor druid;hero;2;1;3;3;2;2;96
+315;siryn;hero;2;7;7;4;5;3;105
+316;thunderbird;hero;5;2;6;3;4;7;155
+317;plantman;hero;1;1;1;1;1;1;32
+318;wildstreak;hero;1;1;1;1;1;1;1
+319;anak;hero;1;1;1;1;1;1;13
+320;iceman;hero;4;5;3;2;4;3;434
+321;luke cage;hero;5;1;4;2;2;4;232
+322;century;hero;4;5;7;7;4;5;32
+323;destroyer;hero;1;1;1;1;1;1;38
+324;shamrock;hero;2;3;4;3;2;2;7
+325;sunfire;hero;4;7;6;4;6;4;63
+326;veda;hero;1;1;1;1;1;1;7
+327;aguila;hero;1;1;1;1;1;1;7
+328;human robot;hero;5;6;3;4;3;4;4
+329;arsenic;hero;2;1;1;4;2;1;2
+330;black bolt;hero;5;7;6;4;5;5;135
+331;captain britain;hero;7;7;7;7;7;7;280
+332;commando;hero;1;1;1;1;1;1;3
+333;red wolf;hero;1;1;1;1;1;1;23
+334;dazzler;hero;4;7;6;6;3;4;148
+335;snowbird;hero;4;1;4;3;4;4;62
+336;torgo;hero;6;3;4;2;2;6;12
+337;wonder man;hero;6;7;5;5;4;6;397
+338;invisible woman;hero;6;7;5;5;5;4;782
+339;leech;hero;2;3;1;2;2;2;60
+340;bucky;hero;1;1;1;1;1;1;94
+341;machine man;hero;6;6;4;4;3;4;59
+342;cybermancer;hero;1;1;1;1;1;1;7
+343;ryder;hero;1;1;1;1;1;1;5
+344;moondragon;hero;4;7;5;4;4;3;156
+345;shatterstar;hero;4;3;6;3;3;3;61
+346;tarantula;hero;1;1;1;1;1;1;23
+347;war machine;hero;6;6;4;3;5;6;5
+348;guardian;hero;6;5;5;6;4;5;96
+349;alyssa moy;hero;1;1;1;1;1;1;16
+350;jimmy woo;hero;1;1;1;1;1;1;40
+351;loga;hero;1;1;1;1;1;1;13
+352;cardiac;hero;1;1;1;1;1;1;13
+353;ricochet;hero;1;1;1;1;1;1;4
+354;deathlok;hero;4;3;7;3;3;4;76
+355;squirrel girl;hero;7;7;7;7;7;7;1
+356;firestar;hero;3;7;3;3;6;3;161
+357;u-go girl;hero;2;1;2;2;2;1;2
+358;adam destine;hero;1;1;1;1;1;1;2
+359;hercules;hero;7;1;7;4;5;7;357
+360;beetle;hero;1;1;1;1;1;1;112
+361;blade;hero;5;1;5;4;5;5;42
+362;lightspeed;hero;1;1;1;1;1;1;84
+363;magik;hero;2;7;4;7;3;2;128
+364;dakota north;hero;1;1;1;1;1;1;18
+365;sasquatch;hero;7;7;7;7;7;7;160
+366;silverclaw;hero;1;1;1;1;1;1;11
+367;nova;hero;1;1;1;1;1;1;262
+368;thornn;hero;1;1;1;1;1;1;13
+369;pixie;hero;6;3;2;2;3;4;14
+370;wild blood;hero;1;1;1;1;1;1;4
+371;hardball;hero;1;1;1;1;1;1;1
+372;banshee;hero;3;7;4;3;4;2;231
+373;queen divine justice;hero;1;1;1;1;1;1;20
+374;sersi;hero;1;1;1;1;1;1;144
+375;nick fury;hero;2;1;7;3;2;3;483
+376;drax;hero;7;2;6;1;4;6;82
+377;sub-mariner;hero;6;1;4;4;5;6;537
+378;force;hero;1;1;1;1;1;1;9
+379;vanguard;hero;1;1;1;1;1;1;29
+380;aginar;hero;1;1;1;1;1;1;3
+381;hulk;hero;7;1;5;6;7;7;878
+382;kaine;villain;3;1;4;4;3;4;47
+383;blob;villain;6;2;3;2;2;4;96
+384;lizard;villain;5;1;2;5;2;4;74
+385;captain barracuda;villain;1;1;1;1;1;1;6
+386;psi-wolf;villain;1;1;1;1;1;1;2
+387;malekith;villain;1;1;1;1;1;1;19
+388;red skull;villain;1;1;1;1;1;1;136
+389;scanner;villain;1;1;1;1;1;1;38
+390;in-betweener;villain;7;7;2;6;7;7;13
+391;basilisk;villain;2;1;2;2;1;3;7
+392;black raazer;villain;1;1;1;1;1;1;3
+393;leader;villain;2;1;2;6;2;2;68
+394;brutacus;villain;1;1;1;1;1;1;6
+395;cheetah;villain;1;1;1;1;1;1;4
+396;cyber;villain;1;1;1;1;1;1;15
+397;russian;villain;6;1;5;2;3;4;6
+398;egghead;villain;1;1;1;1;1;1;20
+399;gronk;villain;1;1;1;1;1;1;6
+400;albino;villain;1;1;1;1;1;1;1
+401;atom-smasher;villain;1;1;1;1;1;1;3
+402;jester;villain;1;1;1;1;1;1;18
+403;karnilla;villain;1;1;1;1;1;1;103
+404;bloodscream;villain;7;7;7;7;7;7;13
+405;lodestone;villain;1;1;1;1;1;1;6
+406;mangler;villain;1;1;1;1;1;1;1
+407;coronary;villain;1;1;1;1;1;1;7
+408;deathbird;villain;1;1;1;1;1;1;41
+409;scorpia;villain;1;1;1;1;1;1;2
+410;doppelganger;villain;7;7;7;1;7;7;8
+411;owl;villain;1;1;1;1;1;1;28
+412;princess python;villain;1;1;1;1;1;1;35
+413;gog;villain;1;1;1;1;1;1;13
+414;acrobat;villain;1;1;1;1;1;1;3
+415;ironclad;villain;1;1;1;1;1;1;19
+416;beef;villain;1;1;1;1;1;1;2
+417;blackwing;villain;1;1;1;1;1;1;19
+418;bushmaster;villain;1;1;1;1;1;1;21
+419;clown;villain;1;1;1;1;1;1;26
+420;ravage;villain;1;1;1;1;1;1;3
+421;mentallo;villain;1;1;1;1;1;1;19
+422;morlun;villain;3;1;4;3;3;4;4
+423;doctor doom;villain;1;1;1;1;1;1;283
+424;piranha;villain;1;1;1;1;1;1;7
+425;amphibius;villain;1;1;1;1;1;1;18
+426;hyperstorm;villain;1;1;1;1;1;1;7
+427;krang;villain;1;1;1;1;1;1;32
+428;bookworm;villain;1;1;1;1;1;1;1
+429;lorelei;villain;1;1;1;1;1;1;50
+430;quasimodo;villain;1;1;1;1;1;1;15
+431;modok;villain;1;4;1;6;1;1;41
+432;demonstaff;villain;1;1;1;1;1;1;1
+433;dragonfly;villain;1;1;1;1;1;1;16
+434;flying tiger;villain;5;1;4;2;3;4;11
+435;graydon creed;villain;7;7;7;7;7;7;18
+436;ymir;villain;7;6;5;4;4;7;13
+437;aggamon;villain;1;1;1;1;1;1;2
+438;jackal;villain;1;1;1;1;1;1;46
+439;red shift;villain;1;1;1;1;1;1;2
+440;mikhail rasputin;villain;1;1;1;1;1;1;17
+441;scalphunter;villain;1;1;1;1;1;1;15
+442;doctor sun;villain;1;1;1;1;1;1;17
+443;oddball;villain;1;1;1;1;1;1;7
+444;faze;villain;1;1;1;1;1;1;2
+445;porcupine;villain;1;5;5;5;1;1;20
+446;ghost;villain;1;1;1;1;1;1;10
+447;anelle;villain;1;1;1;1;1;1;5
+448;baron strucker;villain;4;3;5;4;2;3;49
+449;kaa;villain;1;1;1;1;1;1;2
+450;lady deathstrike;villain;7;7;7;7;7;7;29
+451;brothers grimm;villain;1;1;1;1;1;1;23
+452;mathemanic;villain;1;1;1;1;1;1;9
+453;rumor;villain;1;1;1;1;1;1;1
+454;monocle;villain;1;1;1;1;1;1;4
+455;nightshade;villain;1;1;1;1;1;1;20
+456;eel;villain;1;1;1;1;1;1;28
+457;fredd;villain;1;1;1;1;1;1;2
+458;grim reaper;villain;7;7;7;7;7;7;30
+459;zzzax;villain;1;1;1;1;1;1;10
+460;ajax;villain;1;1;1;1;1;1;23
+461;hunger;villain;1;1;1;1;1;1;2
+462;bloodaxe;villain;1;1;1;1;1;1;32
+463;locus;villain;1;1;1;1;1;1;6
+464;puma;villain;4;1;5;3;3;4;36
+465;mandrill;villain;1;1;1;1;1;1;13
+466;rhino;villain;7;1;6;1;7;7;58
+467;misfit;villain;1;1;1;1;1;1;4
+468;death-stalker;villain;1;1;1;1;1;1;15
+469;scorcher;villain;3;4;2;4;3;2;3
+470;pretty boy;villain;1;1;1;1;1;1;12
+471;glob;villain;1;1;1;1;1;1;3
+472;absorbing man;villain;6;4;6;2;3;6;72
+473;anvil;villain;1;1;1;1;1;1;4
+474;blackout;villain;1;1;1;1;1;1;25
+475;lightmaster;villain;1;1;1;1;1;1;11
+476;bullseye;villain;2;1;6;2;2;2;43
+477;maelstrom;villain;3;5;2;6;2;4;14
+478;rattler;villain;1;1;1;1;1;1;18
+479;melter;villain;1;1;1;1;1;1;24
+480;sandman;villain;7;4;5;4;4;5;115
+481;morg;villain;1;1;1;1;1;1;15
+482;doctor bong;villain;1;1;1;1;1;1;13
+483;empath;villain;1;1;1;1;1;1;18
+484;pilgrim;villain;1;1;1;1;1;1;6
+485;hangman;villain;1;1;1;1;1;1;14
+486;azazel;villain;1;1;1;1;1;1;2
+487;klaw;villain;5;6;2;5;4;3;64
+488;bonebreaker;villain;1;1;1;1;1;1;19
+489;lord templar;villain;1;1;1;1;1;1;6
+490;carrion;villain;1;1;1;1;1;1;17
+491;crimson cowl;villain;2;3;4;4;7;2;21
+492;ringer;villain;1;1;1;1;1;1;5
+493;scythe;villain;1;1;1;1;1;1;2
+494;nekra;villain;5;1;4;3;2;4;18
+495;dragoness;villain;1;1;1;1;1;1;6
+496;graviton;villain;6;7;2;4;6;2;24
+497;arclight;villain;1;1;1;1;1;1;19
+498;living monolith;villain;1;1;1;1;1;1;21
+499;magus;villain;6;7;4;6;6;6;31
+500;red raven;villain;1;1;1;1;1;1;16
+501;dark beast;villain;4;1;4;5;3;4;30
+502;sauron;villain;2;4;2;2;4;3;33
+503;mountjoy;villain;1;1;1;1;1;1;8
+504;occulus;villain;1;1;1;1;1;1;3
+505;fatale;villain;1;1;1;1;1;1;14
+506;ghaur;villain;1;1;1;1;1;1;29
+507;baron mordo;villain;4;6;3;3;7;2;54
+508;black mamba;villain;1;1;1;1;1;1;36
+509;brainchild;villain;1;1;1;1;1;1;13
+510;lunatik;villain;1;1;1;1;1;1;12
+511;mastermind;villain;1;1;1;1;1;1;54
+512;ruckus;villain;1;1;1;1;1;1;3
+513;mongoose;villain;1;1;1;1;1;1;10
+514;diablo;villain;1;1;1;1;1;1;29
+515;nightmare;villain;7;7;3;4;7;6;73
+516;phantom eagle;villain;1;1;1;1;1;1;2
+517;grim hunter;villain;1;1;1;1;1;1;9
+518;asylum;villain;7;7;7;7;7;7;6
+519;jean grey;villain;1;1;1;1;1;1;11
+520;blood spider;villain;1;1;1;1;1;1;1
+521;puff adder;villain;1;1;1;1;1;1;17
+522;mandarin;villain;4;7;7;7;4;5;82
+523;copycat;villain;5;5;7;7;5;5;35
+524;reptilla;villain;1;1;1;1;1;1;6
+525;mirage;villain;1;1;1;1;1;1;183
+526;death adder;villain;1;1;1;1;1;1;13
+527;scattershot;villain;1;1;1;1;1;1;3
+528;nagala;villain;1;1;1;1;1;1;1
+529;orphan-maker;villain;1;1;1;1;1;1;11
+530;powerhouse;villain;1;1;1;1;1;1;14
+531;abraxas;villain;7;7;3;4;7;7;4
+532;helio;villain;1;1;1;1;1;1;7
+533;blackheart;villain;7;6;5;6;6;6;9
+534;lifeforce;villain;1;1;1;1;1;1;8
+535;bulldozer;villain;1;1;1;1;1;1;44
+536;madman;villain;1;1;1;1;1;1;5
+537;raptor;villain;1;1;1;1;1;1;3
+538;cylla;villain;1;1;1;1;1;1;6
+539;sack;villain;1;1;1;1;1;1;3
+540;piledriver;villain;1;1;1;1;1;1;45
+541;hammerhead;villain;5;1;4;5;2;4;42
+542;aminedi;villain;1;1;1;1;1;1;3
+543;hydron;villain;1;1;1;1;1;1;6
+544;avalanche;villain;3;3;3;2;2;2;52
+545;kirigi;villain;1;1;1;1;1;1;3
+546;blue streak;villain;1;1;1;1;1;1;6
+547;looter;villain;3;1;2;4;2;4;14
+548;carnage;villain;5;3;4;4;3;5;27
+549;quagmire;villain;7;7;7;7;7;7;11
+550;crime-wave;villain;1;1;1;1;1;1;2
+551;demogoblin;villain;5;6;6;3;5;6;13
+552;scream;villain;1;1;1;1;1;1;6
+553;needle;villain;1;1;1;1;1;1;9
+554;dragon man;villain;1;1;1;1;1;1;32
+555;patchwork;villain;1;1;1;1;1;1;4
+556;grandmaster;villain;7;6;2;6;7;4;22
+557;yellow claw;villain;1;1;1;1;1;1;37
+558;hobgoblin;villain;4;1;4;5;3;4;109
+559;arcade;villain;2;1;3;5;2;2;28
+560;jack o'lantern;villain;5;4;4;3;4;4;23
+561;bevatron;villain;1;1;1;1;1;1;2
+562;cameron hodge;villain;1;1;1;1;1;1;37
+563;magog;villain;1;1;1;1;1;1;6
+564;mesmero;villain;1;1;1;1;1;1;21
+565;satannish;villain;1;1;1;1;1;1;10
+566;mother night;villain;1;1;1;1;1;1;24
+567;obliterator;villain;1;1;1;1;1;1;5
+568;pluto;villain;1;1;1;1;1;1;33
+569;genesis;villain;1;1;1;1;1;1;8
+570;hate-monger;villain;1;1;1;1;1;1;20
+571;baron blood;villain;1;1;1;1;1;1;26
+572;justin hammer;villain;1;1;1;1;1;1;41
+573;luminor;villain;1;1;1;1;1;1;9
+574;chameleon;villain;2;3;2;4;2;1;45
+575;masterblaster;villain;1;1;1;1;1;1;1
+576;crucible;villain;1;1;1;1;1;1;15
+577;rose;villain;1;1;1;1;1;1;29
+578;molten man;villain;6;5;4;3;2;5;19
+579;phantazia;villain;2;6;3;4;2;2;7
+580;griffin;villain;1;1;1;1;1;1;18
+581;zom;villain;1;1;1;1;1;1;4
+582;asp;villain;1;1;1;1;1;1;31
+583;kangaroo;villain;3;1;2;1;3;4;7
+584;blood brothers;villain;7;1;7;3;4;6;9
+585;captain rectitude;villain;1;1;1;1;1;1;3
+586;man-killer;villain;3;1;4;2;2;5;21
+587;controller;villain;4;7;3;6;2;5;18
+588;reignfire;villain;1;1;1;1;1;1;8
+589;miracle man;villain;1;1;1;1;1;1;8
+590;n'astirh;villain;1;1;1;1;1;1;22
+591;donald pierce;villain;1;1;1;1;1;1;34
+592;orb;villain;1;1;1;1;1;1;10
+593;fever pitch;villain;1;1;1;1;1;1;2
+594;abomination;villain;6;1;2;2;2;7;46
+595;annihilus;villain;6;7;5;5;5;6;37
+596;iron cross;villain;1;1;1;1;1;1;9
+597;libra;villain;1;1;1;1;1;1;29
+598;bull brogin;villain;1;1;1;1;1;1;3
+599;sabretooth;villain;4;1;7;2;2;4;91
+600;dirt nap;villain;1;1;1;1;1;1;8
+601;nitro;villain;5;5;6;7;4;5;15
+602;electro;villain;4;7;5;6;6;4;57
+603;piecemeal;villain;1;1;1;1;1;1;4
+604;hammer;villain;1;1;1;1;1;1;14
+605;hybrid;villain;6;6;2;4;2;5;7
+606;authority;villain;2;5;1;6;1;1;5
+607;kingpin;villain;3;1;5;4;2;3;248
+608;carlos lobo;villain;1;1;1;1;1;1;6
+609;pyro;villain;1;1;1;1;1;1;63
+610;cottonmouth;villain;1;1;1;1;1;1;20
+611;mister sinister;villain;6;6;6;7;5;5;46
+612;deathwatch;villain;1;1;1;1;1;1;16
+613;scrambler;villain;1;1;1;1;1;1;9
+614;nebula;villain;3;6;4;4;2;4;28
+615;dracula;villain;7;7;7;7;7;7;157
+616;high evolutionary;villain;7;6;2;6;2;3;97
+617;blastaar;villain;6;5;4;3;5;5;23
+618;lilith;villain;6;5;2;5;3;4;26
+619;callisto;villain;4;2;7;4;5;4;52
+620;magneto;villain;6;6;3;6;4;2;226
+621;red ghost;villain;3;2;2;4;2;2;26
+622;dansen macabre;villain;1;1;1;1;1;1;14
+623;mosh;villain;1;1;1;1;1;1;1
+624;doctor octopus;villain;1;1;1;1;1;1;123
+625;fabian cortez;villain;1;1;1;1;1;1;23
+626;plasma;villain;1;1;1;1;1;1;5
+627;harry osborn;villain;4;4;5;5;4;5;182
+628;icemaster;villain;1;1;1;1;1;1;2
+629;barnacle;villain;1;1;1;1;1;1;3
+630;kurrgo;villain;1;1;1;1;1;1;2
+631;lullaby;villain;1;1;1;1;1;1;1
+632;master menace;villain;1;1;1;1;1;1;8
+633;crossfire;villain;1;1;1;1;1;1;7
+634;molecule man;villain;1;7;1;3;1;1;35
+635;devastator;villain;1;1;1;1;1;1;4
+636;ahab;villain;3;3;4;3;2;4;12
+637;asmodeus;villain;6;6;2;4;7;3;5
+638;jagged bow;villain;1;1;1;1;1;1;1
+639;kali;villain;1;1;1;1;1;1;1
+640;llyron;villain;1;1;1;1;1;1;10
+641;man-beast;villain;1;1;1;1;1;1;34
+642;condor;villain;1;1;1;1;1;1;7
+643;minister blood;villain;1;1;1;1;1;1;4
+644;scarlet centurion;villain;1;1;1;1;1;1;9
+645;mystique;villain;4;1;5;4;2;2;116
+646;onslaught;villain;7;7;7;7;7;7;19
+647;powderkeg;villain;6;2;2;2;2;3;3
+648;gideon;villain;1;1;1;1;1;1;21
+649;a;villain;1;1;1;1;1;1;3
+650;ion;villain;1;1;1;1;1;1;3
+651;black tom cassidy;villain;7;7;7;7;6;6;33
+652;bull;villain;1;1;1;1;1;1;2
+653;madame menace;villain;1;1;1;1;1;1;13
+654;chrome;villain;1;1;1;1;1;1;2
+655;raoul bushman;villain;1;1;1;1;1;1;13
+656;cyclone;villain;1;1;1;1;1;1;15
+657;nina mccabe;villain;1;1;1;1;1;1;7
+658;el toro rojo;villain;1;1;1;1;1;1;1
+659;galactus;villain;7;7;7;7;7;7;135
+660;hag;villain;1;1;1;1;1;1;7
+661;killer shrike;villain;1;1;1;1;1;1;14
+662;loki;villain;4;5;2;4;3;5;255
+663;purple man;villain;1;1;1;1;1;1;14
+664;mister hyde;villain;5;3;4;3;3;5;50
+665;deathstroke;villain;1;1;1;1;1;1;1
+666;scorpion;villain;6;1;2;2;3;7;28
+667;dormammu;villain;7;7;6;7;7;7;67
+668;pagan;villain;1;1;1;1;1;1;4
+669;gorgon;villain;4;4;6;5;4;4;136
+670;yandroth;villain;1;1;1;1;1;1;6
+671;adversary;villain;1;1;1;1;1;1;13
+672;belasco;villain;1;1;1;1;1;1;16
+673;cobalt man;villain;7;5;3;7;7;7;6
+674;rebound;villain;1;1;1;1;1;1;1
+675;mephisto;villain;7;7;7;6;7;7;111
+676;dangor;villain;1;1;1;1;1;1;3
+677;satan;villain;1;1;1;1;1;1;32
+678;moses magnum;villain;4;3;6;3;4;2;8
+679;nuke;villain;1;1;1;1;1;1;6
+680;exodus;villain;1;1;1;1;1;1;20
+681;gauntlet;villain;1;1;1;1;1;1;19
+682;harrier;villain;5;1;4;2;3;3;1
+683;barbarus;villain;1;1;1;1;1;1;13
+684;juggernaut;villain;7;1;3;2;4;7;68
+685;kuroyama;villain;1;1;1;1;1;1;3
+686;boomslang;villain;1;1;1;1;1;1;15
+687;quicksand;villain;1;1;1;1;1;1;13
+688;master man;villain;1;1;1;1;1;1;20
+689;crossbones;villain;4;3;7;4;3;4;39
+690;rocket racer;villain;2;2;2;4;3;2;20
+691;mole man;villain;1;1;1;1;1;1;66
+692;night thrasher;villain;3;5;6;2;2;3;93
+693;dreadknight;villain;1;1;1;1;1;1;6
+694;perrikus;villain;1;1;1;1;1;1;9
+695;forearm;villain;1;1;1;1;1;1;18
+696;grey gargoyle;villain;6;2;4;5;2;5;27
+697;zarathos;villain;7;7;7;5;7;7;4
+698;jackknife;villain;1;1;1;1;1;1;2
+699;kala;villain;1;1;1;1;1;1;9
+700;blockbuster;villain;1;1;1;1;1;1;10
+701;llyra;villain;1;1;1;1;1;1;29
+702;psycho-man;villain;1;1;1;1;1;1;27
+703;man-ape;villain;1;1;1;1;1;1;13
+704;mindmeld;villain;2;4;2;3;2;3;1
+705;scarecrow;villain;1;1;1;1;1;1;19
+706;mysterio;villain;1;1;1;1;1;1;62
+707;dominex;villain;1;1;1;1;1;1;1
+708;omega red;villain;5;4;6;4;3;5;21
+709;ferocia;villain;1;1;1;1;1;1;6
+710;poundcakes;villain;1;1;1;1;1;1;12
+711;gibbon;villain;3;1;2;2;3;3;10
+712;8-ball;villain;1;1;1;1;1;1;3
+713;hazard;villain;1;1;1;1;1;1;2
+714;animus;villain;4;4;1;3;2;2;1
+715;batroc;villain;1;1;1;1;1;1;39
+716;black tarantula;villain;4;3;5;4;4;5;13
+717;chimera;villain;1;1;1;1;1;1;8
+718;random;villain;1;1;1;1;1;1;12
+719;maximus;villain;1;1;1;1;1;1;57
+720;digger;villain;1;1;1;1;1;1;10
+721;nimrod;villain;1;1;1;1;1;1;4
+722;ego;villain;7;7;2;6;7;7;26
+723;phobius;villain;1;1;1;1;1;1;8
+724;fusion;villain;1;1;1;1;1;1;3
+725;hurricane;villain;3;6;1;5;3;4;14
+726;attuma;villain;1;1;1;1;1;1;48
+727;khan;villain;1;1;1;1;1;1;1
+728;bloodshed;villain;1;1;1;1;1;1;1
+729;puppet master;villain;3;4;4;5;2;2;56
+730;manslaughter;villain;1;1;1;1;1;1;11
+731;corruptor;villain;5;4;2;4;1;2;8
+732;mister fear;villain;1;1;1;1;1;1;15
+733;scorpio;villain;1;1;1;1;1;1;20
+734;nanny;villain;1;1;1;1;1;1;16
+735;dorma;villain;1;1;1;1;1;1;66
+736;ozymandias;villain;5;3;4;4;1;1;23
+737;prism;villain;1;1;1;1;1;1;4
+738;goldbug;villain;1;1;1;1;1;1;10
+739;x-ray;villain;1;1;1;1;1;1;17
+740;apocalypse;villain;6;7;7;7;7;7;89
+741;isbisa;villain;1;1;1;1;1;1;2
+742;bushwacker;villain;1;1;1;1;1;1;16
+743;coachwhip;villain;7;7;7;7;7;7;12
+744;reaper;villain;1;1;1;1;1;1;11
+745;mephista;villain;1;1;1;1;1;1;5
+746;morning star;villain;1;1;1;1;1;1;2
+747;doctor dredd;villain;1;1;1;1;1;1;5
+748;executioner;villain;6;5;6;4;4;7;47
+749;gaunt;villain;1;1;1;1;1;1;20
+750;anaconda;villain;5;3;4;3;4;5;33
+751;hypno-hustler;villain;1;1;1;1;1;1;1
+752;judson jakes;villain;1;1;1;1;1;1;5
+753;kro;villain;1;1;1;1;1;1;39
+754;boomerang;villain;2;2;4;3;4;3;42
+755;lucifer;villain;1;1;1;1;1;1;8
+756;catseye;villain;5;1;4;4;6;5;14
+757;master khan;villain;1;1;1;1;1;1;23
+758;crimson dynamo;villain;1;1;1;1;1;1;52
+759;rock python;villain;1;1;1;1;1;1;15
+760;mojo;villain;4;5;2;5;2;4;25
+761;desak;villain;1;1;1;1;1;1;1
+762;pennsu;villain;1;1;1;1;1;1;1
+763;green goblin;villain;2;3;2;3;3;2;126
+764;yogi dakor;villain;1;1;1;1;1;1;3
+765;arsenal;villain;7;4;6;1;3;6;6
+766;jackhammer;villain;1;1;1;1;1;1;3
+767;bison;villain;1;1;1;1;1;1;4
