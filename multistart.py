@@ -1,4 +1,5 @@
 import csv
+import sys
 
 
 def proccess_row(row):
@@ -34,11 +35,24 @@ def read_collaboration(filename):
     return collaboration
 
 
-def main():
+def read_villains(filename):
+    villains = []
+    with open(filename) as f:
+        for row in f.readlines():
+            villains += [int(x) for x in row.split(' ')]
+    return villains
+
+
+def main(filename):
+    villains = read_villains(filename)
+    print villains
     characters = read_characters('characters.csv')
     print characters
     collaboration = read_collaboration('characters_collaboration.csv')
     print collaboration
 
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) < 2:
+        print 'You must provide a villains file as parameter'
+        exit(1)
+    main(sys.argv[1])
