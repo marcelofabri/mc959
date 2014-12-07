@@ -59,16 +59,16 @@ def multistart(filename, results, budget_enabled=False):
                             fighting_experience(heroes_ids, villains, collaboration), heroes_ids])
 
 
-if __name__ == "__main__":
-    if len(sys.argv) < 3:
+def main(args):
+    if len(args) < 3:
         print 'You must provide a villains file and whether the budget restriction is enabled as parameter'
         exit(1)
 
-    if sys.argv[2].lower() not in ['false', 'true']:
+    if args[2].lower() not in ['false', 'true']:
         print 'You must provide either "True" or "False" as the budget restriction parameter'
         exit(1)
 
-    budget_enabled = sys.argv[2].lower() == 'true'
+    budget_enabled = args[2].lower() == 'true'
 
     if budget_enabled:
         headers = [u'Instância', u'Média Power Grid', u'Valor Solução', u'Colaboração', u'Experiência de Luta',
@@ -78,6 +78,10 @@ if __name__ == "__main__":
                    u'Experiência de Luta', u'Time de Heróis']
 
     data = []
-    multistart(sys.argv[1], data, budget_enabled)
+    multistart(args[1], data, budget_enabled)
 
     print tabulate(data, headers=headers, tablefmt="pipe")
+
+
+if __name__ == "__main__":
+    main(sys.argv)
