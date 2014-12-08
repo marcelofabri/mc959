@@ -5,7 +5,8 @@ from pyevolve import *
 from tabulate import tabulate
 from input_reader import *
 from problem_utils import *
-import threading
+from multiprocessing import Process
+from multiprocessing.queues import SimpleQueue
 
 
 def genetic_algorithm(villains, characters, avg_villains_attributes, collaboration,
@@ -21,7 +22,8 @@ def genetic_algorithm(villains, characters, avg_villains_attributes, collaborati
     ga.setPopulationSize(50 * len(villains))
     ga.terminationCriteria.set(GSimpleGA.ConvergenceCriteria)
     ga.evolve()
-    results.append(ga.bestIndividual())
+    result = ga.bestIndividual()
+    results.put((list(result), result.getRawScore()))
 
 
 def multistart(filename, results, budget_enabled=False):
@@ -35,42 +37,45 @@ def multistart(filename, results, budget_enabled=False):
     budget_available = budget(villains, characters) if budget_enabled else 0
     max_id = max([hero['Character ID'] for hero in heroes])
 
-    solutions = []
     threads = []
+    queue = SimpleQueue()
 
     args = [villains, characters, avg_villains_attributes, collaboration,
-            budget_enabled, budget_available, max_id, solutions]
+            budget_enabled, budget_available, max_id, queue]
+
     # Multistart
     for idx in range(0, 10):
-        thread = threading.Thread(target=genetic_algorithm, args=args)
+        thread = Process(target=genetic_algorithm, args=args)
         threads.append(thread)
         thread.start()
+
+    solutions = [queue.get() for _ in threads]
 
     for thread in threads:
         thread.join()
 
     best_genome = solutions[0]
     for genome in solutions[1:]:
-        if best_genome.getRawScore() < genome.getRawScore():
+        if best_genome[1] < genome[1]:
             best_genome = genome
 
     instance = filename.split('/')[-1].rsplit('.')[0]
 
-    avg_heroes_attributes = avg_attributes(list(best_genome), characters)
-    if best_genome.getFitnessScore() == 0:
+    avg_heroes_attributes = avg_attributes(best_genome[0], characters)
+    if best_genome[1] == 0:
         if budget_enabled:
             results.append([instance, 0, 0, 0, 0, "HEROES TEAM NOT FOUND", 0, budget_available])
         else:
             results.append([instance, 0, 0, 0, 0, "HEROES TEAM NOT FOUND"])
     else:
-        heroes_ids = list(best_genome)
+        heroes_ids = best_genome[0]
         if budget_enabled:
-            results.append([instance, avg_heroes_attributes[0], best_genome.getRawScore(),
+            results.append([instance, avg_heroes_attributes[0], best_genome[1],
                             collaboration_score(heroes_ids, collaboration),
                             fighting_experience(heroes_ids, villains, collaboration),
                             heroes_ids, avg_heroes_attributes[2], budget_available])
         else:
-            results.append([instance, avg_heroes_attributes[0], best_genome.getRawScore(),
+            results.append([instance, avg_heroes_attributes[0], best_genome[1],
                             collaboration_score(heroes_ids, collaboration),
                             fighting_experience(heroes_ids, villains, collaboration), heroes_ids])
 
