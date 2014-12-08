@@ -68,7 +68,7 @@ def multistart(filename, results, budget_enabled=False):
         else:
             results.append([instance, 0, 0, 0, 0, "HEROES TEAM NOT FOUND"])
     else:
-        heroes_ids = best_genome[0]
+        heroes_ids = sorted(best_genome[0])
         if budget_enabled:
             results.append([instance, avg_heroes_attributes[0], best_genome[1],
                             collaboration_score(heroes_ids, collaboration),
