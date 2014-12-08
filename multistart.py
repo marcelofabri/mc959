@@ -18,7 +18,7 @@ def genetic_algorithm(villains, characters, avg_villains_attributes, collaborati
     genome.mutator.set(Mutators.G1DListMutatorIntegerRange)
 
     ga = GSimpleGA.GSimpleGA(genome)
-    ga.setGenerations(50 * len(villains))
+    ga.setGenerations(70 * len(villains))
     ga.setPopulationSize(50 * len(villains))
     ga.terminationCriteria.set(GSimpleGA.ConvergenceCriteria)
     ga.evolve()
@@ -81,28 +81,26 @@ def multistart(filename, results, budget_enabled=False):
 
 
 def main(args):
-    if len(args) < 3:
+    if len(args) < 2:
         print 'You must provide a villains file and whether the budget restriction is enabled as parameter'
         exit(1)
 
-    if args[2].lower() not in ['false', 'true']:
+    if args[1].lower() not in ['false', 'true']:
         print 'You must provide either "True" or "False" as the budget restriction parameter'
         exit(1)
 
-    budget_enabled = args[2].lower() == 'true'
+    budget_enabled = args[1].lower() == 'true'
 
+    headers = [u'Instância', u'Média Power Grid', u'Valor Solução', u'Colaboração',
+               u'Experiência de Luta', u'Time de Heróis']
     if budget_enabled:
-        headers = [u'Instância', u'Média Power Grid', u'Valor Solução', u'Colaboração', u'Experiência de Luta',
-                   u'Time de Heróis', u'Custo do Time', u'Budget disponível']
-    else:
-        headers = [u'Instância', u'Média Power Grid', u'Valor Solução', u'Colaboração',
-                   u'Experiência de Luta', u'Time de Heróis']
+        headers += [u'Custo do Time', u'Budget disponível']
 
     data = []
-    multistart(args[1], data, budget_enabled)
+    multistart(args[0], data, budget_enabled)
 
     print tabulate(data, headers=headers, tablefmt="pipe")
 
 
 if __name__ == "__main__":
-    main(sys.argv)
+    main(sys.argv[1:])
