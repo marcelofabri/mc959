@@ -41,7 +41,7 @@ def multistart(filename, results, budget_enabled=False):
     instance = filename.split('/')[-1].rsplit('.')[0]
 
     avg_heroes_attributes = avg_attributes(list(best_genome), characters)
-    if best_genome.getFitnessScore() == 0 or len(results) > 0:
+    if best_genome.getFitnessScore() == 0:
         if budget_enabled:
             results.append([instance, 0, 0, 0, 0, "HEROES TEAM NOT FOUND", 0, budget_available])
         else:
