@@ -5,6 +5,23 @@ from pyevolve import *
 from tabulate import tabulate
 from input_reader import *
 from problem_utils import *
+import threading
+
+
+def genetic_algorithm(villains, characters, avg_villains_attributes, collaboration,
+                      budget_enabled, budget_available, max_id, results):
+    genome = G1DList.G1DList(len(villains))
+    genome.evaluator.set(fitness(villains, characters, avg_villains_attributes, collaboration,
+                                 budget_enabled, budget_available))
+    genome.setParams(rangemin=0, rangemax=max_id)
+    genome.mutator.set(Mutators.G1DListMutatorIntegerRange)
+
+    ga = GSimpleGA.GSimpleGA(genome)
+    ga.setGenerations(50 * len(villains))
+    ga.setPopulationSize(50 * len(villains))
+    ga.terminationCriteria.set(GSimpleGA.ConvergenceCriteria)
+    ga.evolve()
+    results.append(ga.bestIndividual())
 
 
 def multistart(filename, results, budget_enabled=False):
@@ -18,30 +35,29 @@ def multistart(filename, results, budget_enabled=False):
     budget_available = budget(villains, characters) if budget_enabled else 0
     max_id = max([hero['Character ID'] for hero in heroes])
 
-    best_genome = None
+    solutions = []
+    threads = []
 
+    args = [villains, characters, avg_villains_attributes, collaboration,
+            budget_enabled, budget_available, max_id, solutions]
     # Multistart
     for idx in range(0, 10):
-        genome = G1DList.G1DList(len(villains))
-        genome.evaluator.set(fitness(villains, characters, avg_villains_attributes, collaboration,
-                                     budget_enabled, budget_available))
-        genome.setParams(rangemin=0, rangemax=max_id)
-        genome.mutator.set(Mutators.G1DListMutatorIntegerRange)
+        thread = threading.Thread(target=genetic_algorithm, args=args)
+        threads.append(thread)
+        thread.start()
 
-        ga = GSimpleGA.GSimpleGA(genome)
-        ga.setGenerations(50 * len(villains))
-        ga.setPopulationSize(50 * len(villains))
-        ga.terminationCriteria.set(GSimpleGA.ConvergenceCriteria)
-        ga.evolve()
-        genome = ga.bestIndividual()
+    for thread in threads:
+        thread.join()
 
-        if best_genome is None or best_genome.getRawScore() < genome.getRawScore():
+    best_genome = solutions[0]
+    for genome in solutions[1:]:
+        if best_genome.getRawScore() < genome.getRawScore():
             best_genome = genome
 
     instance = filename.split('/')[-1].rsplit('.')[0]
 
     avg_heroes_attributes = avg_attributes(list(best_genome), characters)
-    if best_genome.getFitnessScore() == 0 or len(results) > 0:
+    if best_genome.getFitnessScore() == 0:
         if budget_enabled:
             results.append([instance, 0, 0, 0, 0, "HEROES TEAM NOT FOUND", 0, budget_available])
         else:
