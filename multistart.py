@@ -1,12 +1,13 @@
 # encoding=utf-8
 
 import sys
+from multiprocessing import Process
+from multiprocessing.queues import SimpleQueue
+
 from pyevolve import *
 from tabulate import tabulate
 from input_reader import *
 from problem_utils import *
-from multiprocessing import Process
-from multiprocessing.queues import SimpleQueue
 
 
 def genetic_algorithm(villains, characters, avg_villains_attributes, collaboration,
