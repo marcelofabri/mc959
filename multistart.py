@@ -99,8 +99,6 @@ def main(args):
         headers += [u'Custo do Time', u'Budget disponível']
 
     data = []
-    # for i in range(2, 21, 2):
-        # f = 'Villan Teams 423/V{0}_423.txt'.format(i)
     multistart(args[0], data, budget_enabled)
 
     print tabulate(data, headers=headers, tablefmt="pipe")
