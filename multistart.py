@@ -8,6 +8,7 @@ from pyevolve import *
 from tabulate import tabulate
 from input_reader import *
 from problem_utils import *
+from solution import Solution
 
 
 def genetic_algorithm(villains, characters, avg_villains_attributes, collaboration,
@@ -24,7 +25,7 @@ def genetic_algorithm(villains, characters, avg_villains_attributes, collaborati
     ga.terminationCriteria.set(GSimpleGA.ConvergenceCriteria)
     ga.evolve()
     result = ga.bestIndividual()
-    results.put((list(result), result.getRawScore()))
+    results.put(Solution(heroes_ids=list(result), collaboration_score=result.getRawScore()))
 
 
 def multistart(filename, results, budget_enabled=False):
@@ -32,8 +33,8 @@ def multistart(filename, results, budget_enabled=False):
     characters = read_characters('characters.csv')
 
     collaboration = read_collaboration('characters_collaboration.csv', len(characters))
-    heroes = [item for item in characters.values() if item['Hero or Villain'] == 'hero']
-    avg_villains_attributes = avg_attributes(villains, characters)
+    heroes = [item for item in characters.values() if is_hero(item)]
+    villains_attributes = Attributes.attributes_from_characters(villains, characters)
 
     budget_available = budget(villains, characters) if budget_enabled else 0
     max_id = max([hero['Character ID'] for hero in heroes])
@@ -41,7 +42,7 @@ def multistart(filename, results, budget_enabled=False):
     threads = []
     queue = SimpleQueue()
 
-    args = [villains, characters, avg_villains_attributes, collaboration,
+    args = [villains, characters, villains_attributes, collaboration,
             budget_enabled, budget_available, max_id, queue]
 
     # Multistart
@@ -57,28 +58,28 @@ def multistart(filename, results, budget_enabled=False):
 
     best_genome = solutions[0]
     for genome in solutions[1:]:
-        if best_genome[1] < genome[1]:
+        if best_genome.collaboration_score < genome.collaboration_score:
             best_genome = genome
 
     instance = filename.split('/')[-1].rsplit('.')[0]
 
-    avg_heroes_attributes = avg_attributes(best_genome[0], characters)
-    if best_genome[1] == 0:
+    heroes_attributes = Attributes.attributes_from_characters(best_genome.heroes_ids, characters)
+    if best_genome.collaboration_score <= 0:
         if budget_enabled:
-            results.append([instance, 0, 0, 0, 0, "HEROES TEAM NOT FOUND", 0, budget_available])
+            results.append([instance, 0, 0, 0, "HEROES TEAM NOT FOUND", 0, budget_available])
         else:
-            results.append([instance, 0, 0, 0, 0, "HEROES TEAM NOT FOUND"])
+            results.append([instance, 0, 0, 0, "HEROES TEAM NOT FOUND"])
     else:
-        heroes_ids = sorted(best_genome[0])
+        heroes_ids = sorted(best_genome.heroes_ids)
         if budget_enabled:
-            results.append([instance, avg_heroes_attributes[0], best_genome[1],
-                            collaboration_score(heroes_ids, collaboration),
-                            fighting_experience(heroes_ids, villains, collaboration),
-                            heroes_ids, avg_heroes_attributes[2], budget_available])
+            results.append([instance, best_genome.collaboration_score,
+                            Solution.collaboration_score(heroes_ids, collaboration),
+                            Solution.fighting_experience(heroes_ids, villains, collaboration),
+                            heroes_ids, heroes_attributes.cost, budget_available])
         else:
-            results.append([instance, avg_heroes_attributes[0], best_genome[1],
-                            collaboration_score(heroes_ids, collaboration),
-                            fighting_experience(heroes_ids, villains, collaboration), heroes_ids])
+            results.append([instance, best_genome.collaboration_score,
+                            Solution.collaboration_score(heroes_ids, collaboration),
+                            Solution.fighting_experience(heroes_ids, villains, collaboration), heroes_ids])
 
 
 def main(args):
@@ -92,12 +93,14 @@ def main(args):
 
     budget_enabled = args[1].lower() == 'true'
 
-    headers = [u'Instância', u'Média Power Grid', u'Valor Solução', u'Colaboração',
+    headers = [u'Instância', u'Valor Solução', u'Colaboração',
                u'Experiência de Luta', u'Time de Heróis']
     if budget_enabled:
         headers += [u'Custo do Time', u'Budget disponível']
 
     data = []
+    # for i in range(2, 21, 2):
+        # f = 'Villan Teams 423/V{0}_423.txt'.format(i)
     multistart(args[0], data, budget_enabled)
 
     print tabulate(data, headers=headers, tablefmt="pipe")
